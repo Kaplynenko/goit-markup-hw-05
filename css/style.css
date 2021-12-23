@@ -70,6 +70,8 @@ body {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 .container.nav {
   display: flex;
@@ -144,6 +146,8 @@ body {
 }
 .contacts .link {
   color: var(--main-content-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
 }
 .link .mail {
   margin-right: 10px;
@@ -302,7 +306,7 @@ img {
   margin-right: 30px;
 }
 .section.work {
-  padding-top: 0px;
+  padding-top: 94px;
 }
 .section.work.team {
   background-color: var(--section-cards);
@@ -401,6 +405,8 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: all;
 }
 .adrress {
   margin: 0 0 9px 0;
@@ -421,6 +427,8 @@ img {
 }
 .social .link-icon {
   background-color: rgba(255, 255, 255, 0.1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: all;
 }
 .icon-link.ft .link-icon {
   fill: var(--primery-background);
@@ -481,12 +489,17 @@ img {
   border-radius: 4px;
   border: transparent;
   padding: 6px 22px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color, color, box-shadow;
 }
 
 .btn:hover,
 .btn:focus {
   background-color: var(--accent-color);
   color: var(--primery-background);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .decore-card {
   position: relative;
@@ -517,6 +530,8 @@ img {
   flex-wrap: wrap;
   margin-right: 30px;
   margin-bottom: 30px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: box-shadow;
 }
 .products .cards-item:nth-child(3n) {
   margin-right: 0;
@@ -597,6 +612,8 @@ ul {
   align-items: center;
   fill: teal;
   border-radius: 50%;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: all;
 }
 .link-icon .icon-link {
   justify-items: center;
@@ -650,6 +667,8 @@ ul {
 .client-item .item-cln {
   fill: #afb1b8;
   padding: 15px 27px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: all;
 }
 .clients .client-item + .client-item {
   margin-left: 30px;
@@ -666,6 +685,8 @@ ul {
   justify-content: center;
   box-sizing: border-box;
   border-radius: 4px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: all;
 }
 
 .nav-items .link.port::after {
@@ -692,6 +713,8 @@ ul {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: all;
 }
 .modal {
   position: absolute;
