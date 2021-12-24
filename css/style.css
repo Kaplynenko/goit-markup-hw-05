@@ -306,10 +306,11 @@ img {
   margin-right: 30px;
 }
 .section.work {
-  padding-top: 94px;
+  padding-top: 0px;
 }
 .section.work.team {
   background-color: var(--section-cards);
+  padding-top: 94px;
 }
 .headline-title {
   margin: 0;
@@ -331,6 +332,7 @@ img {
 
 .card-img {
   position: relative;
+  background-color: var(--primery-background);
 }
 .decore-items {
   position: absolute;
